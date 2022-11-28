@@ -11,7 +11,7 @@ section.workspace{
 }
 
 .display-app{
-    padding-top: 80px;
+    padding-top: 35px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,6 +25,7 @@ h1.main-title{
 }
 
 .drum-kit-display{
+    margin-top: 30px;
     position: relative;
 }
 
@@ -56,9 +57,65 @@ kbd.key{
     align-items: center;
     justify-content: center;
     border-radius: 3px;
-    color: black;
-    
+    color: black; 
+    font-weight: bold;
 }
+
+.drum-kit-display kbd.key{
+    position: absolute;
+}
+
+kbd.key.crash{
+    top:0px;
+    left: -12px;
+}
+
+kbd.key.snare{
+    top: 219px;
+    left: 360px;
+}
+
+kbd.key.kick{
+    top: 300px;
+    left: 245px;
+}
+
+kbd.key.kick2{
+    top: 300px;
+    left: 175px;
+}
+
+kbd.key.tom-high{
+    top: 174px;
+    left: 261px;
+}
+
+kbd.key.tom-mid{
+    top: 153px;
+    left: 141px;
+}
+
+kbd.key.tom-low{
+    top: 265px;
+    left: 37px;
+}
+
+kbd.key.ride{
+    top: 5px;
+    left: 75px;
+}
+
+kbd.key.hihat-open{
+    top: 74px;
+    left: 334px;
+}
+
+kbd.key.hihat-close{
+    top: 75px;
+    left: 454px;
+}
+
+
 
 .key-mapping{
     position: absolute;
@@ -66,4 +123,31 @@ kbd.key{
     top: 0;
     background-color: black;
     color: #fff;
+    width: 250px;
+    height: 700px;
+}
+
+.key-mapping h2{
+    margin:20px 60px;
+    font-family: 'Handlee', cursive;
+}
+
+ul.key-list{
+    padding: 30px 30px;
+}
+
+li.list-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+li.list-item p{
+    margin-left: 15px;
+    font-family: 'Handlee', cursive;
+    font-size: 18px;
+}
+
+li.list-item .key{
+    margin-left: 10px;
 }
