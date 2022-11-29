@@ -41,7 +41,7 @@ h1.main-title{
     transform: rotate(-7.2deg) scale(1.5);
 }
 
-.drum-kit-display img#hihat-top{
+.drum-kit-display img#hihatTop{
     position: absolute;
     top: 89px;
     left: 345px;
@@ -49,6 +49,19 @@ h1.main-title{
 }
 
 kbd.key{
+    width: 32px;
+    height: 32px;
+    background-color: #EAEAEA;
+    display: flex;
+    box-shadow: 0 0 0 3px rgb(224, 222, 222);
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: black; 
+    font-weight: bold;
+}
+
+kbd.key-code{
     width: 32px;
     height: 32px;
     background-color: #EAEAEA;
@@ -148,6 +161,10 @@ li.list-item p{
     font-size: 18px;
 }
 
-li.list-item .key{
+li.list-item .key-code{
     margin-left: 10px;
+}
+
+.playing{
+    transform: scale(1.25);
 }
