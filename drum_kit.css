@@ -1,2 +1,29 @@
 /* font-family: 'Pacifico', cursive; */
 *{margin: 0; padding: 0;}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+section.main{
+    width: 100%;
+    position: relative;
+}
+
+.key-mapping{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.display{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
