@@ -39,6 +39,7 @@ h1.main-title{
     top: 30px;
     left: -15px;
     transform: rotate(-7.2deg) scale(1.5);
+    transition: transform ease-in-out .042s;
 }
 
 .drum-kit-display img#hihatTop{
@@ -46,6 +47,7 @@ h1.main-title{
     top: 89px;
     left: 345px;
     transform: scale(1.5);
+    transition: top ease-in-out .042s;
 }
 
 kbd.key{
@@ -59,6 +61,7 @@ kbd.key{
     border-radius: 3px;
     color: black; 
     font-weight: bold;
+    transition: transform ease-in-out 0.042s;
 }
 
 kbd.key-code{
